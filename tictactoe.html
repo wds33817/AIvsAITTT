@@ -1,0 +1,29 @@
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<link type="text/css" rel="stylesheet" href="tictactoe.css">
+	<script type="text/javascript" src="tictactoe.js"></script>
+	<title>AI</title>
+</head>
+<body>
+		<header>
+			<p>Minimax Algorithm</p>
+		</header>
+		<div class="message-container">
+			<div id="message"></div>
+		</div>
+		<table id="tab-tic-tac-toe" cellspacing="0">
+			<tbody><tr><td id="00" ></td><td id="01" ></td><td id="02" ></td></tr>
+			<tr><td id="10" ></td><td id="11" ></td><td id="12" ></td></tr>
+			<tr><td id="20" ></td><td id="21" ></td><td id="22" ></td></tr>
+		</tbody></table>
+		<br><br>
+		<div class="button-container">
+		<input type="button" value="Start AI" id="bnt-restart" onclick="restartBnt(this)">
+
+		<input type="button" value="Start GAME" id="bnt-restart"  onclick="clickedCell(this)">
+		</div>
+		<br>
+</body>
+</html>
